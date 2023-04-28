@@ -94,25 +94,21 @@ nav {
 
 .left-sidebar {
     flex-basis: 25%;
-    position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 
 .main-content {
     flex-basis: 47%;
-    background: #41db51;
 }
 
 .right-sidebar {
     flex-basis: 25%;
-    background: yellow;
-    position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 
-.imp-links a {
+.imp-links a, .shortcut-links a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -132,4 +128,16 @@ nav {
 
 .imp-links {
     border-bottom: 1px solid #ccc;
+}
+
+.shortcut-links a img {
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.shortcut-links p {
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
 }
